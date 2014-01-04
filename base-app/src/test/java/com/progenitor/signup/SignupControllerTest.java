@@ -19,7 +19,9 @@ public class SignupControllerTest extends WebAppConfigurationAware {
                 .andExpect(content().string(
                         allOf(
                                 containsString("<title>Signup</title>"),
-                                containsString("<legend>Please Sign Up</legend>")
+                                //containsString("<legend>Please Sign Up</legend>")
+                                containsString("<legend>Setup New Account for Progenitor Consumer-Manufacture <br>Online DataBase, Sign Up Here</br></legend>\n" +
+                                        "        ")
                         ))
                 );
     }

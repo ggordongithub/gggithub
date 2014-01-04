@@ -1,6 +1,8 @@
 package com.progenitor.account;
 
-import javax.persistence.*;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceException;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Repository;
